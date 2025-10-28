@@ -1,0 +1,29 @@
+class Rectangle:
+    def _init_(self, w= 0, h= 0):
+        self.width = w 
+        self.height = h
+    
+    def display(self):
+            print("Width:", self.width)
+            print("Height:", self.height)
+    
+    def _str_(self):
+        return f'Rectangle:\nWidth = {self.width} & Height = {self.height}'
+    
+#instantiate the objects
+r1 = Rectangle(4, 5)
+#r.1display()
+print(r1)
+print()
+
+r2 = Rectangle(10, 10)
+#r.2display
+print(r2)
+print()
+
+
+TV = Rectangle()
+print(TV)
+
+desk = Rectangle(11, 12) 
+print(desk)
